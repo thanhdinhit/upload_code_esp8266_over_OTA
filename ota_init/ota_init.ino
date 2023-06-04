@@ -39,6 +39,7 @@ void setup() {
     else if (error == OTA_END_ERROR) Serial.println("End Failed");
   });
   ArduinoOTA.begin();
+  
   Serial.println("Ready");
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());

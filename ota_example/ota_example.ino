@@ -3,8 +3,8 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
-const char* ssid = "xxx";
-const char* password = "yyy";
+const char* ssid = "Thi Buoi";
+const char* password = "0906531928";
 
 //variabls for blinking an LED with Millis
 const int led = D0; // ESP8266 Pin to which onboard LED is connected
@@ -105,7 +105,7 @@ void loop() {
     }
   */
   digitalWrite(led,  LOW);
-  delay(10);
+  delay(1000);
   digitalWrite(led,  HIGH);
   delay(1000);
 
